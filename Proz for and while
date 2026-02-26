@@ -1,0 +1,130 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPcMi6iSz/nH6xfSRXyUTKE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/imaritiks7/Proz1/blob/main/Proz%20for%20and%20while\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ixX2MUqFNqGL"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(20,0,-1):\n",
+        "  if(i==13):\n",
+        "    continue\n",
+        "  print (i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JINzh0_mFj5h",
+        "outputId": "60ebca43-646f-492a-a304-aee1ea0b1e79"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n",
+            "19\n",
+            "18\n",
+            "17\n",
+            "16\n",
+            "15\n",
+            "14\n",
+            "12\n",
+            "11\n",
+            "10\n",
+            "9\n",
+            "8\n",
+            "7\n",
+            "6\n",
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=20\n",
+        "while(i>=1):\n",
+        "  if(i==13):\n",
+        "    i=i-1\n",
+        "    continue\n",
+        "  print(i)\n",
+        "  i=i-1"
+      ],
+      "metadata": {
+        "id": "OhqZ_f3QRXGa",
+        "outputId": "0a23ed86-c95c-477b-e39a-cc595ee5519b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n",
+            "19\n",
+            "18\n",
+            "17\n",
+            "16\n",
+            "15\n",
+            "14\n",
+            "12\n",
+            "11\n",
+            "10\n",
+            "9\n",
+            "8\n",
+            "7\n",
+            "6\n",
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
